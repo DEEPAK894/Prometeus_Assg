@@ -40,4 +40,8 @@
   +  In the "Query" section, select your Prometheus data source and start building your queries based on the metrics your application exposes.<br>
 
   # ScreenShots
+![Prometeus Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-34-17.png)
+![Grafana Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-32-34.png)
+![Grafana Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-32-34.png)
+
 
