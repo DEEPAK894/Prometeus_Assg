@@ -18,5 +18,19 @@
 
 **Step 5:** Run Docker Compose.<br>
   + Run the following command to build and start the Docker containers.
-     >       docker-compose up -d   
+     >       docker-compose up -d
+  + This will start Prometheus and Grafana in the background.  
 <br>
+
+**Step 6:** Verify Prometheus Configuration.<br>
+  + Visit http://localhost:9090 in the browser to access the Prometheus UI.
+  + Check the "Targets" tab to verify if the application is being scraped successfully. <br>
+
+**Step 7:** Set Up Grafana Datasource.<br>
+  + Open http://localhost:3000 in your browser.
+  + Log in using the default credentials (admin/admin).
+  + Add Prometheus as a datasource:
+     - Go to "Settings" -> "Data Sources".
+     - Add a new data source, select Prometheus, and set the URL to http://prometheus:9090.
+     - Click "Save & Test" to verify the connection.<br>
+
