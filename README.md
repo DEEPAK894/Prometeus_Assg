@@ -9,7 +9,14 @@
  **Step 2:** Create Flask Application.<br>
   + Create a Flask application with metrics instrumentation. Create app.py file and add the python code into that file.<br>
   + Make sure that existing  project is instrumented with Prometheus metrics. Need to use a Prometheus client library in the code to expose the desired metrics.<br>
+  
 **Step 3:** Set Up Docker-Compose for Prometheus and Grafana.<br>
   + Create a docker-compose.yml file to define the services.Pull the images of Prometheus and Grafana from DockerHub. <br>
+  
 **Step 4:** Configure Prometheus Scraping.<br>
-  + Create a docker-compose.yml file to define the services.Pull the images of Prometheus and Grafana from DockerHub. <br>
+  + Create a prometheus.yml file in the project directory. <br>
+
+**Step 5:** Run Docker Compose.<br>
+  + Run the following command to build and start the Docker containers.
+     >       docker-compose up -d   
+<br>
