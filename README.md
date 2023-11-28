@@ -34,3 +34,10 @@
      - Add a new data source, select Prometheus, and set the URL to http://prometheus:9090.
      - Click "Save & Test" to verify the connection.<br>
 
+   **Step 8:** Create Grafana Dashboards.<br>
+  + In Grafana, go to the "+" menu on the left sidebar and select "Dashboard."
+  +  Click on "Add new panel."
+  +  In the "Query" section, select your Prometheus data source and start building your queries based on the metrics your application exposes.<br>
+
+  #ScreenShots
+
