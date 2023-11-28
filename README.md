@@ -39,5 +39,5 @@
   +  Click on "Add new panel."
   +  In the "Query" section, select your Prometheus data source and start building your queries based on the metrics your application exposes.<br>
 
-  #ScreenShots
+  # ScreenShots
 
