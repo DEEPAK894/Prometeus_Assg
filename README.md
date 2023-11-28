@@ -40,13 +40,13 @@
   +  In the "Query" section, select your Prometheus data source and start building your queries based on the metrics your application exposes.<br>
 
   # ScreenShots<br>
- +   Prometheus Targets Page: Overview of Monitored Targets<br>
+ +   Prometheus Targets Page: Overview of Monitored Targets<br><br>
 ![Prometeus Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-34-17.png)<br><br>
  +   Dashboard in Grafana: Visualizing Flask Application Metrics<br>
 
-1. flask_cpu_usage_percentage <br>
+1. flask_cpu_usage_percentage <br><br>
 ![Grafana Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-31-57.png)<br><br>
-2. process_cpu_seconds_total <br>
+2. process_cpu_seconds_total <br><br>
 ![Grafana Dashboard](https://github.com/DEEPAK894/Prometeus_Assg/blob/main/Screenshot%20from%202023-11-28%2014-32-34.png)
 
 
